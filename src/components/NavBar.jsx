@@ -11,9 +11,13 @@ const NavBar = () => {
 
   return (
     <div className='w-full p-4 rounded-2xl mt-6 border-spacing-[0.01] border-2'>
-      <Button variant="outline" className='rounded-xl' onClick={handleButtonClick}>
+    <div className='flex flex-row'>
+    <h1 className='text-2xl font-bold'>Biller</h1>
+     
+      <Button variant="outline" className='rounded-xl ml-12' onClick={handleButtonClick}>
         Create new order
       </Button>
+      </div>
     </div>
   )
 }
